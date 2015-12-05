@@ -4,12 +4,6 @@
 
 Note: these restaurants should not be linked to the hotels in anyway at this  stage
 
-Follow the instructions in the rails repo to add restuarants to the eplore site. This will be similar to how we added hotels. The instructions are in 01 - 04, in the rails repo.
-
-## Add Restuarants to Explore
-
-Note: these restaurants should not be linked to the hotels in anyway at this  stage
-
 Follow the instructions in the rails repo to add restuarants to the eplore site. This will be similar to how we added hotels.
 
 Note you can add multiple fields at once when adding a model:
