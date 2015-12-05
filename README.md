@@ -2,43 +2,27 @@
 
 ## Add Restuarants to Explore
 
-Add Restaurants to Explore
+Note: these restaurants should not be linked to the hotels in anyway at this  stage
+
+Follow the instructions in the rails repo to add restuarants to the eplore site. This will be similar to how we added hotels. The instructions are in 01 - 04, in the rails repo.
+
+## Add Restuarants to Explore
 
 Note: these restaurants should not be linked to the hotels in anyway at this  stage
 
-Within the explore application, start the Rails server
+Follow the instructions in the rails repo to add restuarants to the eplore site. This will be similar to how we added hotels.
 
-Open the site in the browser and enter the following URL: 
+Note you can add multiple fields at once when adding a model:
 
-localhost:3000/restaurants
+```
+rails generate model article title:string text:text
+```
 
+## Add Travel Agencies to Explore
 
-Check that the page has a routing error.
+Following the pattern, add travel agencies to explore.
 
-Add a "named" route that specifies a `restaurants` controller and an `index` view.
-
-
-Add the `restaurants` controller and the index action (method).
-
-Make sure that that a `missing template error` is now visible in the browser.
-
-
-Add the `index.html.erb` template in the folder `app/views/restaurants`. 
-
-
-Put some static data in this file which shows some restaurants.
-
-
-Create a `restaurant` model (singular) with fields and run the migration - `rake db:migrate`
-
-
-Create restaurants from the Rails console. 
-
-
-Use this data in the application, so that these restaurants are shown on the view.
-
-
-### Bonus: files
+## Bonus: files
 
 Read through this repo and try out the code:
 
